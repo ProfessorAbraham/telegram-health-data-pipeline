@@ -3,12 +3,12 @@ import json
 import os
 
 # Set your credentials
-api_id = 12345678   # 🔁 Replace this
-api_hash = 'abc123yourhash'  # 🔁 Replace this
-channel_username = 't.me/YourChannel'  # 🔁 Replace with target group/channel
+api_id = 12345678   # 🔁 Replace this with your API ID
+api_hash = 'abc123yourhash'  # 🔁 Replace this with your API Hash
+channel_username = 't.me/lobelia4cosmetics'  # 🔁 Replace with your target channel
 
 # Where to save messages
-output_path = "data/raw/telegram_messages/messages.json"
+output_path = "data/raw/telegram_messages/2025-07-09/lobelia4cosmetics.json"
 
 # Start session
 with TelegramClient('session_name', api_id, api_hash) as client:
